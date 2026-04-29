@@ -11,6 +11,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: hello world custom action
-        uses: codero-learning/coderco-custom-action@main
+        uses: ./custom_actions
         with:
           who-to-greet: "coderco team"
