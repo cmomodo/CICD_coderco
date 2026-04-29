@@ -1,0 +1,16 @@
+name: coderco custom action ci
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: hello world custom action
+        uses: codero-learning/coderco-custom-action@main
+        with:
+          who-to-greet: "coderco team"
