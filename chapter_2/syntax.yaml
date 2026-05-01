@@ -1,0 +1,19 @@
+# key value pairs
+#
+name: Foo bar
+age: 30
+job: Developer
+
+# lists
+
+fruits:
+  - Apple
+  - Banana
+  - cherry
+  -
+
+#nested elements
+address:
+  street: 123 Downing Street
+  city: London
+  country: United Kingdom
