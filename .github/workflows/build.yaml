@@ -12,12 +12,12 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.14"
 
       - name: install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r reequirement.txt
 
       - name: run tests
         run: |
