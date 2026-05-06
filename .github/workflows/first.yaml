@@ -1,4 +1,4 @@
-name: coderco cicd wirjfkiw
+name: coderco cicd workflow
 
 on: [push]
 
