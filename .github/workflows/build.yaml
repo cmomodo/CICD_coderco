@@ -17,7 +17,7 @@ jobs:
       - name: install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r chapter_4/requirements.txt
 
       - name: run tests
         run: |
